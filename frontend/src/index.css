@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e2e8f0;
+}
+
+/* container utama */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+/* title */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f8fafc;
+}
+
+/* input */
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 70%;
+  outline: none;
+}
+
+/* button */
+button {
+  padding: 10px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* list item */
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-top: 10px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+}
+
+/* ranking badge */
+.badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  font-size: 12px;
+}
